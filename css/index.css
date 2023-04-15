@@ -1,24 +1,13 @@
 @charset "UTF-8";
 
-body {
-     background-image: url(../img/topo.jpg);
-     height: 500px;
-     background-repeat: no-repeat;
-     background-size: contain;
-     text-align: center;
-     display: inline-block;
-     }
-
-}
-
 div {
-    width: 500px;
-    height: 400px;
+    text-align: center;
 }
 .top {
     font-size: 20px;
     text-align: center;
 }
+nav  {
+    
 
-nav {
 }
