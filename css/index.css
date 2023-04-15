@@ -5,5 +5,20 @@ body {
      height: 500px;
      background-repeat: no-repeat;
      background-size: contain;
+     text-align: center;
+     display: inline-block;
+     }
 
+}
+
+div {
+    width: 500px;
+    height: 400px;
+}
+.top {
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
 }
