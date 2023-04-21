@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+
+    width: 1024px;
+    margin: 30px auto;
+}
+.header-top {
+    height: 50px;
+    background: #162028;
+}
+
+.logotipo{
+    margin: 5px 0 0 35px;
+}
