@@ -10,11 +10,39 @@ body {
     width: 1024px;
     margin: 30px auto;
 }
+/*Como heade top tem altura o header nav poder 100%*/
 .header-top {
     height: 50px;
     background: #162028;
+    position: relative;
 }
 
 .logotipo{
-    margin: 5px 0 0 35px;
+    margin: 5px 0 0 135px;
 }
+
+/* Formatação na nav */
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(126, 126, 126, 0.096);
+    height: 100%;
+}
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.header-nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px 0 0;
+    padding: 14px;
+   
+}
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Finalizado NAV* simples/
