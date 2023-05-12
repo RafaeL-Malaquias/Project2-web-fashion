@@ -45,6 +45,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+.header-nav li:hover {
+    color: aqua;
+   background-color: rgba(126, 126, 126, 0.096);
+}
+
 /*Finalizado NAV* simples */
 
 .portfolio{
@@ -105,12 +110,16 @@ body {
 }
 
 .rodape {
-    width: 500px;
+    width: 490px;
     height: 20px;
-    color: aqua;
-    background-color: black;
+    color: #00fff2;
+    background-color: #252525;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-
+}
+.rodape:hover{
+    color: #252525;
+    background-color: #00fff2;
+    opacity: 1;
 }
