@@ -15,10 +15,17 @@ body {
     height: 50px;
     background: #162028;
     position: relative;
+    display: flex;
 }
 
 .logotipo{
     margin: 5px 0 0 135px;
+}
+#search{
+    left: 20px;
+    background-color: #162028;
+    position: relative;
+    text-align: center;
 }
 
 /* Formatação na nav */
@@ -26,7 +33,6 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(126, 126, 126, 0.096);
     height: 100%;
 }
 .header-nav ul {
@@ -50,9 +56,10 @@ body {
    height: 22px;
    color: aqua;
    background-color: rgba(126, 126, 126, 0.096);
+   border-radius: 10px;
 }
 .header-nav a:hover{
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 
 /*Finalizado NAV* simples */
