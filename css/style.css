@@ -45,9 +45,14 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+/* text da cor tem ser elemento separado*/
 .header-nav li:hover {
-    color: aqua;
+   height: 22px;
+   color: aqua;
    background-color: rgba(126, 126, 126, 0.096);
+}
+.header-nav a:hover{
+    color: aqua;
 }
 
 /*Finalizado NAV* simples */
@@ -121,5 +126,6 @@ body {
 .rodape:hover{
     color: #252525;
     background-color: #00fff2;
-    opacity: 1;
+    opacity: 1; 
+      transition: all 0.7s;
 }
