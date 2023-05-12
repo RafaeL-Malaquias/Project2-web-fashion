@@ -100,12 +100,22 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-.mapa{
+.mapa {
+
+    width: 300px;
+    height: 100px;
+    transition-property:  width, height;
+    transition-duration: 1s, 3s;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    /*deley atras começo da inimação*/
+    transition-delay: 5s .8s;
+    border: 10px hidden rgba(0,0,0,0.45);
+    border-radius: 30px 40px 40px 40px;
  
 }
 
 .mapa:hover{ 
-     margin: 5px;
+    margin: 5px;
     padding: 5px;
     width: 900px;
     height: 400px;
