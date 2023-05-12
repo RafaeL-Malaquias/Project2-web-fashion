@@ -100,6 +100,27 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+.imagem3{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.imagem1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+}
+.imagem2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+}
+.imagem3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+}
+
+
+
+
+
 .mapa {
 
     width: 300px;
@@ -132,9 +153,13 @@ body {
 .rodape {
     width: 490px;
     height: 20px;
-    color: #000000;
-    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    transition: all 0.9s ease;
+}
+.rodape:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50%;
 }
