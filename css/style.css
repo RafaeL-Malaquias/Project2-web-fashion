@@ -100,11 +100,12 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-.imagem3{
+.imagem1, .imagem2 ,.imagem3 {
     transition: all 0.3s;
     cursor: pointer;
 }
 .imagem1:hover{
+    border-radius: 10px;
     -webkit-transform: scale(1.1);
     transform: scale(0.9);
 }
