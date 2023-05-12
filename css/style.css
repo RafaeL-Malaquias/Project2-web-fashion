@@ -117,15 +117,15 @@ body {
 .rodape {
     width: 490px;
     height: 20px;
-    color: #00fff2;
-    background-color: #252525;
+    color: #000000;
+    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
 }
 .rodape:hover{
     color: #252525;
-    background-color: #00fff2;
+    background-color: #00eeff;
     opacity: 1; 
       transition: all 0.7s;
 }
