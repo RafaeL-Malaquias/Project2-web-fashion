@@ -79,6 +79,8 @@ body {
     color: #555;
     padding: 0 100px 50px 100px;
     overflow: auto;
+    border-radius: 50%;
+
 }
 
 .gallery-card {
