@@ -21,13 +21,6 @@ body {
 .logotipo{
     margin: 5px 0 0 135px;
 }
-#search{
-    left: 20px;
-    background-color: #162028;
-    position: relative;
-    text-align: center;
-}
-
 /* Formatação na nav */
 .header-nav {
     position: absolute;
