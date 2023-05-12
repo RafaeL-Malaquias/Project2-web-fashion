@@ -110,6 +110,7 @@ body {
     transform: scale(0.9);
 }
 .imagem2:hover{
+    border-radius: 10px;
     -webkit-transform: scale(1.1);
     transform: scale(0.9);
 }
