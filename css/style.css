@@ -41,9 +41,9 @@ body {
    
 }
 .header-nav a {
-    font-family: Sans-serif;
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
 /* text da cor tem ser elemento separado*/
@@ -96,7 +96,6 @@ body {
     border-radius: 50%;
 
 }
-
 .gallery-card {
     width: 32%;
     float: left;
