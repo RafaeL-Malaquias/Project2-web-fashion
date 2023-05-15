@@ -4,6 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, #002b4f, #002f54, #003b62, #004d76, #00648f, #0080a8, #009dc0, #00bbd4, #00d5e2, #00ebec, #18faf2, #29fff4);
 }
 #principal{
 
@@ -40,6 +41,7 @@ body {
    
 }
 .header-nav a {
+    font-family: Sans-serif;
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
@@ -47,10 +49,15 @@ body {
 /* text da cor tem ser elemento separado*/
 .header-nav li:hover {
    height: 22px;
-   background-color: rgba(126, 126, 126, 0.096);
+   background-color: rgba(192, 192, 192, 0.096);
    border-radius: 10px;
+   transition: background-color 1s;
 }
-.header-nav a:hover{
+/* hover para background- e outro para para letra*/
+.header-nav li:hover{
+    background-color: rgba(234, 234, 234, 0.096);
+}
+.header-nav li:hover{
     color: rgb(255, 255, 255);
 }
 
@@ -63,19 +70,27 @@ body {
 .portfolio h1 {
     font-size: 35px;
     color: #252525;
-
+    transition: color 1s;
+}
+.portfolio h1:hover{
+    color: white;
+    cursor: default;
+}
+.portfolio p:hover { 
+    color: white;
 }
 .portfolio p {
     font-size: 16px;
     line-height: 2;
-    color: #555;
+    color: #000000;
+    transition: color 1s;
 }
 
 /*GALARIA */
 
 /*Leyout quebrpu pouco usando overflow auto */
 .gallery {
-    color: #555;
+    color: #000000;
     padding: 0 100px 50px 100px;
     overflow: auto;
     border-radius: 50%;
@@ -120,10 +135,6 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(0.9);
 }
-
-
-
-
 
 .mapa {
 
