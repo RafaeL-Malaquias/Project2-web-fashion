@@ -42,12 +42,11 @@ body {
 .header-nav a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 /* text da cor tem ser elemento separado*/
 .header-nav li:hover {
    height: 22px;
-   color: aqua;
    background-color: rgba(126, 126, 126, 0.096);
    border-radius: 10px;
 }
